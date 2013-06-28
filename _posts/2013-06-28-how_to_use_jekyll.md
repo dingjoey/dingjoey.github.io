@@ -1,11 +1,13 @@
 ---
+published: false
 layout: post
-title: "how_to_use_jekyll"
+title: how_to_use_jekyll
 description: ""
-category: 
-tags: [jekyll]
+category: null
+tags: 
+  - jekyll
 ---
-{% include JB/setup %}
+
 
 ## using jekyll build blog##
 
@@ -43,5 +45,3 @@ tags: [jekyll]
 - 如何发表文章
     1. 使用命令rake post title=""创建一个post
     2. 在_posts/目录下面就可以看到一个文件，使用markdown语法就可以开始blogging啦
-
-
